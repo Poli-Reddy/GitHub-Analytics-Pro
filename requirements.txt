@@ -1,0 +1,8 @@
+requests
+pymongo
+pandas
+matplotlib
+seaborn
+plotly
+streamlit
+python-dateutil
