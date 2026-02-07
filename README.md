@@ -1,12 +1,12 @@
 # GitHub Analytics Pro - Project Review
 
-## 📊 Professional GitHub User Activity Analysis Dashboard
+##  Professional GitHub User Activity Analysis Dashboard
 
 A comprehensive data visualization platform that transforms GitHub user data into actionable insights through 6 specialized sections with 16 unique visualizations.
 
 ---
 
-## 🎯 Project Overview
+##  Project Overview
 
 **GitHub Analytics Pro** is a full-stack Python application that fetches, processes, and visualizes GitHub user activity data. The dashboard provides professional-grade analytics with differentiated visualization types across six thematic sections, ensuring each chart type serves a specific analytical purpose.
 
@@ -20,7 +20,7 @@ A comprehensive data visualization platform that transforms GitHub user data int
 
 ---
 
-## 🏗️ Technical Architecture
+##  Technical Architecture
 
 ### Technology Stack
 - **Frontend:** Streamlit with custom CSS
@@ -43,7 +43,7 @@ project/
 
 ---
 
-## 📈 Visualization Analysis & Review
+##  Visualization Analysis & Review
 
 ### Section 1: Overview Dashboard
 **Purpose:** High-level summary for quick insights
@@ -183,7 +183,7 @@ project/
 
 ---
 
-## 🎨 UI/UX Design Review
+##  UI/UX Design Review
 
 ### Visual Design
 - **Color Scheme:** Professional dark theme with red accents (#e94560)
@@ -205,7 +205,7 @@ project/
 
 ---
 
-## 📊 Data Processing Pipeline
+##  Data Processing Pipeline
 
 ### 1. Data Extraction
 - GitHub REST API integration (60 requests/hour limit)
@@ -233,7 +233,7 @@ project/
 
 ---
 
-## 🚀 Installation & Usage
+##  Installation & Usage
 
 ### Prerequisites
 - Python 3.10+
@@ -263,7 +263,7 @@ streamlit run dashboard.py
 
 ---
 
-## 🔍 Performance Analysis
+##  Performance Analysis
 
 ### Strengths
 - **Visualization Diversity:** 16 different chart types, no repetition
@@ -287,7 +287,7 @@ streamlit run dashboard.py
 
 ---
 
-## 📋 Conclusion
+##  Conclusion
 
 **GitHub Analytics Pro** successfully delivers a comprehensive, professional-grade analytics platform that transforms raw GitHub data into actionable insights. The project demonstrates strong technical execution with:
 
@@ -299,7 +299,7 @@ streamlit run dashboard.py
 
 The dashboard effectively serves its purpose as a developer analytics tool, providing valuable insights into coding patterns, skill assessment, and growth tracking. The visualization strategy ensures each chart type serves a specific analytical purpose, avoiding redundancy while maximizing information density.
 
-**Rating: ⭐⭐⭐⭐⭐ (5/5)**
+**Rating: (5/5)**
 - Technical Implementation: Excellent
 - Visualization Design: Professional
 - User Experience: Intuitive
@@ -308,7 +308,7 @@ The dashboard effectively serves its purpose as a developer analytics tool, prov
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 *Note: Screenshots would be included here showing:*
 - *Dashboard overview with all sections*
@@ -321,49 +321,49 @@ The dashboard effectively serves its purpose as a developer analytics tool, prov
 
 *Built with Python, Streamlit, Plotly, and MongoDB Atlas*
 
-1. **⭐ Star Growth Over Time**
+1. ** Star Growth Over Time**
    - Date range filters (7d/30d/all time)
    - Repo selection
    - Peak annotations
    - Interactive tooltips
 
-2. **💻 Language Distribution**
+2. ** Language Distribution**
    - Pie chart / Treemap toggle
    - Consistent color mapping
    - Hover info with repo counts
    - Click-to-filter capability
 
-3. **📦 Repository Size Distribution**
+3. ** Repository Size Distribution**
    - Custom bucket sizing
    - Toggle: Count vs Total Size
    - Interactive bar selection
 
-4. **🔥 Commit Activity Heatmap**
+4. ** Commit Activity Heatmap**
    - Day × Hour matrix
    - Month/year filters
    - Dynamic color intensity
    - Drill-down on cells
 
-5. **📅 Monthly Commits**
+5. ** Monthly Commits**
    - Year selector
    - Stacked by repo mode
    - 3-month rolling average
    - Trend visualization
 
-6. **📆 Contribution Calendar**
+6. ** Contribution Calendar**
    - Daily heatmap
    - Clickable days
    - Weekly sparklines
    - Year comparison
 
-7. **🏆 Repository Leaderboards**
+7. ** Repository Leaderboards**
    - Sortable columns
    - Star velocity metrics
    - Fork velocity tracking
    - Language filters
    - 4 tabs: Stars, Forks, Size, Velocity
 
-8. **⏱️ Activity Timeline**
+8. ** Activity Timeline**
    - Color-coded event types
    - Zoom and pan
    - Event legends
@@ -371,31 +371,31 @@ The dashboard effectively serves its purpose as a developer analytics tool, prov
 
 #### **New Advanced Visualizations (5)**
 
-9. **🌐 Repo Topic Treemap**
+9. ** Repo Topic Treemap**
    - Visual topic clustering
    - Size by activity
    - Interactive blocks
    - Focus area identification
 
-10. **🧭 Developer Skill Radar**
+10. ** Developer Skill Radar**
     - 6-axis skill profile
     - Stars, Forks, Repos, Commits, Languages, Followers
     - Normalized 0-100 scale
     - Visual skill shape
 
-11. **🧱 Issue & PR Activity**
+11. ** Issue & PR Activity**
     - Open vs Closed status
     - Repository breakdown
     - Dual chart view
     - Collaboration metrics
 
-12. **📈 Star Velocity Trend**
+12. ** Star Velocity Trend**
     - Stars per month rate
     - Momentum tracking
     - Bubble size by total stars
     - Repo-level velocity
 
-13. **⚡ Peak Coding Sessions**
+13. ** Peak Coding Sessions**
     - Session detection (>5 commits/day)
     - Area chart visualization
     - Configurable time range (7-90 days)
@@ -403,31 +403,31 @@ The dashboard effectively serves its purpose as a developer analytics tool, prov
 
 ### Dashboard Features
 
-- **🎨 Dark/Light Theme Toggle**
-- **🔍 Advanced Filters:**
+- ** Dark/Light Theme Toggle**
+- ** Advanced Filters:**
   - Time range (7d/30d/90d/all)
   - Language selection
   - Repo filtering
   - Event type filtering
 
-- **📊 Profile Summary Header:**
+- ** Profile Summary Header:**
   - Avatar display
   - Followers/Following
   - Total repos
   - Total stars
 
-- **🎯 Interactive Elements:**
+- ** Interactive Elements:**
   - Click-to-filter charts
   - Synchronized visualizations
   - Hover tooltips
   - Drill-down capabilities
 
-- **📱 Responsive Layout:**
+- ** Responsive Layout:**
   - Wide screen optimization
   - Grid-based design
   - Collapsible sidebar
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 project/
@@ -440,7 +440,7 @@ project/
 └── requirements.txt           # Dependencies
 ```
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **API:** GitHub REST API (no authentication required)
 - **Database:** MongoDB Atlas (cloud)
@@ -449,7 +449,7 @@ project/
 - **Dashboard:** Streamlit
 - **Language:** Python 3.10+
 
-## 📊 Data Collections
+##  Data Collections
 
 MongoDB stores:
 - `users` - Profile data
@@ -459,7 +459,7 @@ MongoDB stores:
 - `activity` - Event timeline
 - `topics` - Repository topics
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **Portfolio Analysis** - Showcase your GitHub activity
 - **Developer Insights** - Understand coding patterns
@@ -467,14 +467,14 @@ MongoDB stores:
 - **Recruitment** - Evaluate candidate activity
 - **Research** - Study open-source trends
 
-## 🔒 Security
+##  Security
 
 - MongoDB credentials stored in `config.py` (backend only)
 - `.gitignore` prevents credential commits
 - No frontend credential exposure
 - Read-only GitHub API access
 
-## 📈 Performance
+##  Performance
 
 - Pagination for large datasets
 - Rate limit handling
@@ -482,7 +482,7 @@ MongoDB stores:
 - Cached visualizations
 - Optimized data processing
 
-## 🎨 Customization
+## Customization
 
 **Color Schemes:**
 - Language colors defined in `LANGUAGE_COLORS`
@@ -494,7 +494,7 @@ MongoDB stores:
 - Add custom bucket sizes
 - Adjust session thresholds
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 **Rate Limits:**
 - GitHub API: 60 requests/hour (unauthenticated)
@@ -510,6 +510,4 @@ MongoDB stores:
 - Check console for errors
 - Verify data preprocessing
 
-## 📝 License
 
-MIT License - Free for personal and commercial use
